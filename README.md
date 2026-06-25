@@ -1,5 +1,6 @@
 # FlagsOpenGL
 Five Flags Using OpenGL (GLUT)
+
 Overview
 
 This project is made using C++ and OpenGL (GLUT). It draws five national flags using basic OpenGL primitives such as quadrilaterals (GL_QUADS) and polygons (GL_POLYGON).
@@ -12,8 +13,11 @@ Flags Included:
 5.Bangladesh
 
 Reference:
+
 <img width="975" height="409" alt="image" src="https://github.com/user-attachments/assets/4c078c9a-5cb8-4812-8b9c-3ebfdba615ab" />
+
 https://www.geogebra.org/calculator
+
 https://www.geeksforgeeks.org/computer-graphics/computer-graphics-2/
 
 Features:
@@ -29,46 +33,52 @@ Uses separate functions for each flag to keep the code organized.
 Functions:
 
 Germany()
+
 Draws the German flag using three horizontal stripes:
 
-Black
-Red
-Yellow
-Austria()
+1.Black
+2.Red
+3.Yellow
+4.Austria()
 
 Draws the Austrian flag using three horizontal stripes:
 
-Red
-White
-Red
+1.Red
+2.White
+3.Red
 
 Russia()
+
 Draws the Russian flag using three horizontal stripes:
 
-White
-Blue
-Red
+1.White
+2.Blue
+3.Red
 
 Italy()
+
 Draws the Italian flag using three vertical stripes:
 
-Green
-White
-Red
-circle()
+1.Green
+2.White
+3.Red
+4.circle()
 
 Creates a circle using multiple vertices and trigonometric functions (sin and cos).
 
 Bangladesh()
 Draws the Bangladesh flag:
 
-Green rectangular background
-Red circle in the center
+1.Green rectangular background
+
+2.Red circle in the center
 
 display()
+
 Calls all flag functions and displays them on the screen.
 
 Concepts Used:
+
 1.OpenGL Graphics Programming
 2.GLUT Window Management
 3.Color Rendering
@@ -82,6 +92,7 @@ Concepts Used:
 11.Code::Blocks or any C++ IDE
 
 How to Run:
+
 1.Open the project in your IDE.
 2.Make sure OpenGL and GLUT libraries are configured.
 3.Compile the code.
@@ -89,6 +100,7 @@ How to Run:
 5.A window will appear displaying the five flags.
 
 Learning Outcomes:
+
 After completing this project, you will understand:
 
 1.How to draw shapes using OpenGL.
